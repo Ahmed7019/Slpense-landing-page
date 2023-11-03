@@ -4,4 +4,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-     
+        'cabin' : ['Cabin' ,'san serif']
+      },
+    },
+  },
+  plugins: [],
+}
+
