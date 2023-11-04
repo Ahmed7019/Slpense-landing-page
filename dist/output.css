@@ -533,3 +533,16 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.font-cabin {
+  font-family: Cabin, san serif;
+}
