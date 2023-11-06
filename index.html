@@ -9,10 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/fontawesome-free-6.4.2-web/css/fontawesome.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/solid.css">
 </head>
 
 <body class="font-cabin">
-    <header>
+    <header class="bg-[#dddabcad]">
         <div>
             <div class="bg-black text-white text-center p-4">
                 <img src="images/party horn.png" alt="party horn" class="w-4 mx-1 inline">
@@ -47,8 +49,8 @@
     </header>
 
     <main>
-        <div class="p-3">
-            <section class="flex flex-col">
+        <div>
+            <section class="flex flex-col bg-[#dddabcad] p-3">
                 <div class="order-2 my-4"> <!-- Left box -->
                     <div>
                         <h1 class="text-3xl font-bold my-3">Share your unfiltered thoughts.Get paid.</h1>
@@ -56,22 +58,23 @@
                             Discuss the topics you love, and get pai for doing <i>just</i> that.
                         </p>
                     </div>
-                    <div class="flex justify-between">
+                    <div class="flex">
                         <div class="flex flex-col justify-between mr-3">
-                            <img src="images/Checkmark.svg" alt="checkmark" class="w-6">
-                            <img src="images/Checkmark.svg" alt="checkmark" class="w-6">
+                            <img src="images/Checkmark.svg" alt="checkmark" class="w-6 mb-3">
+                            <img src="images/Checkmark.svg" alt="checkmark" class="w-6 mb-3">
                             <img src="images/Checkmark.svg" alt="checkmark" class="w-6">
                         </div>
                         <div class="whitespace-nowrap">
-                            <p>Receive 99% off the earnings.</p>
-                            <p>Get paid via Debit Card, ACH, or PayPal.</p>
+                            <p class="mb-3">Receive 99% off the earnings.</p>
+                            <p class="mb-3">Get paid via Debit Card, ACH, or PayPal.</p>
                             <p>Withraw your earnings anytime.</p>
                         </div>
                     </div>
-                    <div class="my-4 flex justify-between">
+                    <div class="my-4 flex">
                         <input type="email" name="email" id="email" placeholder="john@example.com"
-                            class="border border-gray-300 border-solid text-center rounded">
-                        <a href="#" class="p-4 text-white bg-black rounded">Get started</a>
+                            class=" p-4 border border-gray-300 border-solid text-center rounded w-[60%] mr-4">
+                        <a href="#" class="text-center whitespace-nowrap p-4 text-white bg-black rounded w-20%">Get
+                            started</a>
                     </div>
                 </div>
 
@@ -84,7 +87,7 @@
                 </div>
             </section>
             <br>
-            <section>
+            <section class="p-3">
                 <div class="flex justify-between items-center my-4"> <!-- *Logo -->
                     <img src="images/Facebook Logo.png" alt="Facebook logo" class="w-[30%]">
                     <img src="images/Dribbble Logo.png" alt="Dribbble logo" class="w-[30%]">
@@ -97,29 +100,34 @@
                 </div>
             </section>
             <br>
-            <section class="my-4">
+            <section class="my-4 p-6 ">
                 <!-- * left box -->
-                <div>
-                    <h2 class="text-3xl font-bold whitespace-wrap mb-4">Secure your money with Escrow.</h2>
-                    <p>Spense uses Escrow to secure all payments. We belive Escrow offers the highest level of security
-                        for
-                        your payments, so you never need to worry about scams.</p>
-                    <a href="#" class="underline">Learn more about Escrow <i
-                            class="fa-solid fa-right-arrow fa-xs"></i></a>
+                <div class="bg-[#dddabcad] rounded p-6">
+                    <div>
+                        <h2 class="text-3xl font-bold whitespace-wrap mb-4">Secure your money with Escrow.</h2>
+                        <p>Spense uses Escrow to secure all payments. We belive Escrow offers the highest level of
+                            security
+                            for
+                            your payments, so you never need to worry about scams.</p>
+                        <a href="#" class="underline">Learn more about Escrow <i
+                                class="fa-solid fa-right-arrow fa-xs"></i></a>
+                    </div>
+                    <!-- * Right image -->
+                    <picture>
+                        <source srcset="images/Phone Mockup (Tablet).png" media="(min-width:680px)">
+                        <source srcset="images/Phone Mockup (Desktop).png" media="(min-width:768px)">
+                        <img src="images/Phone Mockup (Mobile).png" alt="mobile image">
+                    </picture>
                 </div>
-                <!-- * Right image -->
-                <picture>
-                    <source srcset="images/Phone Mockup (Tablet).png" media="(min-width:680px)">
-                    <source srcset="images/Phone Mockup (Desktop).png" media="(min-width:768px)">
-                    <img src="images/Phone Mockup (Mobile).png" alt="mobile image">
-                </picture>
+
             </section>
-            <section class="flex flex-col my-8">
+            <section class="flex flex-col my-8 p-3">
                 <img src="images/Text Editor.png" alt="text editor" class="order-2 my-4">
                 <!-- Right Box -->
                 <div>
                     <h2 class="text-3xl font-bold whitespace-wrap mb-4">A text editor like no other.</h2>
-                    <p class="mb-4">Our text editors pulls you into focus mode with it's simplistic design and usability so you can
+                    <p class="mb-4">Our text editors pulls you into focus mode with it's simplistic design and usability
+                        so you can
                         put
                         out your best writings.</p>
                     <a href="#" class="underline">Text Editor Live Demo <i class="fa-solid fa-right-arrow"></i></a>
