@@ -67,9 +67,11 @@
 
             <div> <!-- Right box -->
                 <div>
-                    <img srcset="images/Hero Image (Mobile).png,images/Hero Image (Tablet).png 2x ,
-                        images/Hero Image (Desktop).png 3x" src="images/Hero Image (Mobile).png" class="object-contain"
-                        alt="">
+                    <picture>
+                        <source srcset="images/Hero Image (Tablet).png" media="(min-width:680px)">
+                        <source srcset="images/Hero Image (Desktop).png" media="(min-width:768px)">
+                        <img src="images/Hero Image (Mobile).png" alt="mobile image">
+                    </picture>
                 </div>
             </div>
         </section>
@@ -95,7 +97,11 @@
                 <a href="#">Learn more about Escrow <i class="fa-solid fa-right-arrow fa-xs"></i></a>
             </div>
             <!-- * Right image -->
-            <img srcset="images/Phone Mockup (Mobile).png" src="images/Hero Image (Mobile).png" alt="image"> 
+            <picture>
+                <source srcset="images/Phone Mockup (Tablet).png" media="(min-width:680px)">
+                <source srcset="images/Phone Mockup (Desktop).png" media="(min-width:768px)">
+                <img src="images/Phone Mockup (Mobile).png" alt="mobile image">
+            </picture>
         </section>
 
         <section>
