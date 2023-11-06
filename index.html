@@ -25,19 +25,21 @@
                     class="w-4 mx-1 inline">
             </div>
 
-            <nav class="p-4">
+            <nav class="p-4 sm:p-8">
                 <div class="flex justify-between"><a href="index.html" class="font-bold">spense.</a>
                     <div class="hidden sm:flex sm:justify-between">
                         <ul aria-label="nav" class="flex justify-between">
-                            <li><a href="#">Business</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Features</a></li>
+                            <li class="mx-4"><a href="#">Business</a></li>
+                            <li class="mx-4"><a href="#">Pricing</a></li>
+                            <li class="mx-4"><a href="#">Features</a></li>
+                            <li class="mx-4"><a href="#login">Login</a></li>
+                            <li class="mx-4"><a href="#" class="text-white bg-black text-center p-4 rounded">Get Started</a></li>
                         </ul>
                     </div>
-                    <div class="hidden sm:block">
-                        <ul class="flex">
-                            <li><a href="#login">Login</a></li>
-                            <li><a href="#">Get Started</a></li>
+                    <div class="hidden">
+                        <ul class="flex justify-between">
+                            <li class="mx-4"><a href="#login">Login</a></li>
+                            <li class="mx-4"><a href="#">Get Started</a></li>
                         </ul>
                     </div>
                     <img src="images/Hamburger Menu.svg" alt="menu" class="sm:hidden">
@@ -72,7 +74,7 @@
                     </div>
                     <div class="my-4 flex">
                         <input type="email" name="email" id="email" placeholder="john@example.com"
-                            class=" p-4 border border-gray-300 border-solid text-center rounded w-[60%] mr-4">
+                            class=" p-4 border border-gray-300 border-solid text-center rounded w-[60%] mr-4 sm:w-[30%]">
                         <a href="#" class="text-center whitespace-nowrap p-4 text-white bg-black rounded w-20%">Get
                             started</a>
                     </div>
@@ -87,13 +89,13 @@
                 </div>
             </section>
             <br>
-            <section class="p-3">
-                <div class="flex justify-between items-center my-4"> <!-- *Logo -->
-                    <img src="images/Facebook Logo.png" alt="Facebook logo" class="w-[30%]">
-                    <img src="images/Dribbble Logo.png" alt="Dribbble logo" class="w-[30%]">
-                    <img src="images/Youtube Logo.png" alt="Youtube logo" class="w-[30%]">
-                    <img src="images/Pinterest Logo.png" alt="Pinterest logo" class="hidden">
-                    <img src="images/Twitter Logo.png" alt="twitter logo" class="hidden">
+            <section class="p-3 sm:px-6">
+                <div class="flex justify-between items-center my-4 sm:my-2"> <!-- *Logo -->
+                    <img src="images/Facebook Logo.png" alt="Facebook logo" class="w-[30%] sm:w-32">
+                    <img src="images/Dribbble Logo.png" alt="Dribbble logo" class="w-[30%] sm:w-32">
+                    <img src="images/Youtube Logo.png" alt="Youtube logo" class="w-[30%] sm:w-32">
+                    <img src="images/Pinterest Logo.png" alt="Pinterest logo" class="hidden sm:block sm:w-32">
+                    <img src="images/Twitter Logo.png" alt="twitter logo" class="hidden sm:block sm:w-32">
                     <img src="images/Reddit Logo.png" alt="Reddit logo" class="hidden">
                     <img src="images/Google Logo.png" alt="Google logo" class="hidden">
                     <img src="images/Slack Logo.png" alt="slack logo" class="hidden">
@@ -102,7 +104,7 @@
             <br>
             <section class="my-4 p-6 ">
                 <!-- * left box -->
-                <div class="bg-[#dddabcad] rounded p-6">
+                <div class="bg-[#dddabcad] rounded p-6 sm:p-12">
                     <div>
                         <h2 class="text-3xl font-bold whitespace-wrap mb-4">Secure your money with Escrow.</h2>
                         <p class="text-[#686441] mb-4">Spense uses Escrow to secure all payments. We belive Escrow offers the highest level of
@@ -113,7 +115,7 @@
                             class="fa-solid fa-right-long fa-xs"></i></a>
                     </div>
                     <!-- * Right image -->
-                    <picture>
+                    <picture class="sm:relative sm:mx-auto sm:left-32">
                         <source srcset="images/Phone Mockup (Tablet).png" media="(min-width:680px)">
                         <source srcset="images/Phone Mockup (Desktop).png" media="(min-width:768px)">
                         <img src="images/Phone Mockup (Mobile).png" alt="mobile image">
@@ -138,8 +140,8 @@
     </main>
 
     <footer>
-        <div class="p-4 bg-black text-gray-400 grid grid-cols-2 gap-4">
-            <div class="col-span-2 pt-4">
+        <div class="p-4 bg-black text-gray-400 grid grid-cols-2 gap-4 sm:grid-cols-4">
+            <div class="col-span-2 pt-4 sm:pt-0">
                 <h3 class="text-white mb-3">spense.</h3>
                 <p>Spense is an open platform for individuals to share their unfiltered thoughts. Discuss the topics you
                     love, and get paid for doing <i>just that.</i></p>
